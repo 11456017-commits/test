@@ -1,0 +1,41 @@
+html,
+body {
+    margin: 0%;
+}
+header {
+    position: relative;
+}
+header div {
+    z-index: 1;
+    top: 40%;
+    left: 2%;
+    position: absolute;
+    background-color: rgb(0 0 0 / 0.7);
+    color: rgba(255, 255, 255, 0.7);
+    text-align: center;
+    padding: 12px 24px;
+    border-radius: 10px;
+}
+header div h1 {
+    margin: 10px 0px;
+}
+header div hr {
+    margin: 20px 0px;
+}
+header div p {
+    margin: 16px 0px;
+}
+header div:hover {
+    background-color: black;
+    color: white;
+}
+header div button {
+    width: 90%;
+    background-color: #4CAF50;
+    color: rgba(255, 255, 255, 0.7);
+}
+header div button:hover {
+    background-color: grey;
+    color: black;
+    cursor: pointer;
+}
