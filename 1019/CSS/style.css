@@ -1,41 +1,144 @@
 html,
 body {
-    margin: 0%;
+  margin: 0%;
 }
-header {
-    position: relative;
+.header1,
+.header2,
+.header3 {
+  position: relative;
 }
-header div {
-    z-index: 1;
-    top: 40%;
-    left: 2%;
-    position: absolute;
-    background-color: rgb(0 0 0 / 0.7);
-    color: rgba(255, 255, 255, 0.7);
-    text-align: center;
-    padding: 12px 24px;
-    border-radius: 10px;
+.header2,
+.header3 {
+  display: none;
 }
-header div h1 {
-    margin: 10px 0px;
+.header1 div,
+.header2 div,
+.header3 div {
+  z-index: 1;
+  top: 40%;
+  left: 2%;
+  position: absolute;
+  background-color: rgb(0 0 0 / 0.7);
+  color: rgba(255, 255, 255, 0.7);
+  text-align: center;
+  padding: 12px 24px;
+  border-radius: 10px;
 }
-header div hr {
-    margin: 20px 0px;
+.header1 div h1,
+.header3 div h1 {
+  margin: 10px 0px;
 }
-header div p {
-    margin: 16px 0px;
+.header1 div hr,
+.header2 div hr,
+.header3 div hr {
+  margin: 20px 0px;
+  border-top: 1px solid;
 }
-header div:hover {
-    background-color: black;
-    color: white;
+.header1 div p,
+.header2 div p,
+.header3 div p {
+  margin: 16px 0px;
+  font-size: 16px;
 }
-header div button {
-    width: 90%;
-    background-color: #4CAF50;
-    color: rgba(255, 255, 255, 0.7);
+.header1 div:hover,
+.header2 div:hover,
+.header3 div:hover {
+  background-color: black;
+  color: white;
 }
-header div button:hover {
-    background-color: grey;
+.header1 div button {
+  border: none;
+  width: 90%;
+  background-color: #4caf50;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.header1 div button:hover,
+.header2 div button:hover,
+.header3 div button:hover {
+  background-color: grey;
+  color: black;
+  cursor: pointer;
+}
+.header2 div h1 {
+  margin: 10px 0px;
+  color: #f44336;
+}
+.header2 div button {
+  border: none;
+  width: 90%;
+  background-color: #f44336;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+.header3 div button {
+  border: none;
+  width: 90%;
+  background-color: #3f51b5;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+header a {
+  position: absolute;
+  z-index: 1;
+  top: 65%;
+  left: 91%;
+  background-color: black;
+  color: white;
+  padding: 8px 16px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+header a:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+.Why {
+  padding: 64px 0px;
+  justify-content: space-between;
+  display: flex;
+}
+.Why div {
+  padding: 0px 16px;
+  width: 60%;
+}
+.Why_h1_1 {
+  font-size: 64px;
+}
+.Why_h1_2 {
+  font-size: 48px;
+  color: #4caf50;
+}
+.Why b {
+  font-size: 24px;
+}
+.Why p {
+  font-size: 18px;
+}
+.Why button {
+    background-color: rgb(217, 217, 217);
     color: black;
-    cursor: pointer;
+    border: none;
+    padding: 12px 24px;
+    margin: 16px 0px;
+    width: 250px;
+    font-size: 18px;
+}
+.Why button:hover {
+    background-color: rgb(171, 171, 171);
+}
+.Why .fa.fa-android {
+    font-size: 24px;
+    color: #4caf50;
+}
+.Why .fa.fa-apple {
+    font-size: 24px;
+}
+.Why .fa.fa-windows {
+    font-size: 24px;
+    color: #2196F3;
 }
