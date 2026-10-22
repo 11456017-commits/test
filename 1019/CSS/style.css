@@ -1,6 +1,7 @@
 html,
 body {
   margin: 0%;
+  font-family: "Poppins", sans-serif;
 }
 .header1,
 .header2,
@@ -10,6 +11,11 @@ body {
 .header2,
 .header3 {
   display: none;
+}
+.header1 img,
+.header2 img,
+.header3 img {
+  width: 100%;
 }
 .header1 div,
 .header2 div,
@@ -102,43 +108,207 @@ header a:hover {
   justify-content: space-between;
   display: flex;
 }
-.Why div {
+.Why div,
+.Clarity div {
   padding: 0px 16px;
   width: 60%;
 }
-.Why_h1_1 {
+.Why_h1_1,
+.Clarity_h1_1 {
   font-size: 64px;
 }
 .Why_h1_2 {
   font-size: 48px;
   color: #4caf50;
 }
-.Why b {
+.Why b,
+.Clarity b {
   font-size: 24px;
 }
 .Why p {
   font-size: 18px;
 }
 .Why button {
-    background-color: rgb(217, 217, 217);
-    color: black;
-    border: none;
-    padding: 12px 24px;
-    margin: 16px 0px;
-    width: 250px;
-    font-size: 18px;
+  background-color: rgb(217, 217, 217);
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  margin: 16px 0px;
+  width: 250px;
+  font-size: 18px;
 }
 .Why button:hover {
-    background-color: rgb(171, 171, 171);
+  background-color: rgb(171, 171, 171);
 }
 .Why .fa.fa-android {
-    font-size: 24px;
-    color: #4caf50;
+  font-size: 24px;
+  color: #4caf50;
 }
 .Why .fa.fa-apple {
-    font-size: 24px;
+  font-size: 24px;
 }
 .Why .fa.fa-windows {
-    font-size: 24px;
-    color: #2196F3;
+  font-size: 24px;
+  color: #2196f3;
+}
+.Clarity {
+  padding: 64px 0px;
+  justify-content: space-between;
+  display: flex;
+  background-color: rgb(228, 228, 228);
+}
+.Clarity_h1_2 {
+  font-size: 48px;
+  color: #f44336;
+}
+.Features {
+  text-align: center;
+  background-color: rgb(108, 108, 108);
+  padding: 64px 16px;
+}
+.Features h1 {
+  font-size: 64px;
+  margin: 10px 0px;
+  color: white;
+}
+.Features p {
+  font-size: 16px;
+  margin: 16px 0px;
+  color: white;
+}
+.Features_icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+  gap: 16px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 64px;
+}
+.fa.fa-bolt {
+  font-size: 64px;
+  color: #ff9800;
+}
+.fa.fa-heart {
+  font-size: 64px;
+  color: #f44336;
+}
+.fa.fa-camera {
+  font-size: 64px;
+  color: #d2be0e;
+}
+.fa.fa-battery-full {
+  font-size: 64px;
+  color: #4caf50;
+}
+.fa.fa-diamond {
+  font-size: 64px;
+  color: white;
+}
+.fa.fa-cloud {
+  font-size: 64px;
+  color: #2196f3;
+}
+.fa.fa-globe {
+  font-size: 64px;
+  color: #ffc107;
+}
+.fa.fa-hdd-o {
+  font-size: 64px;
+  color: #00bcd4;
+}
+.fa.fa-user {
+  font-size: 64px;
+  color: white;
+}
+.fa.fa-shield {
+  font-size: 64px;
+  color: #ff9800;
+}
+.fa.fa-wifi {
+  font-size: 64px;
+  color: #757575;
+}
+.fa.fa-image {
+  font-size: 64px;
+  color: #e91e63;
+}
+.p1 {
+  font-size: 72px;
+  margin: 10px;
+}
+.Pricing {
+  padding: 64px 0px;
+  text-align: center;
+}
+.Pricing p {
+  font-size: 18px;
+  margin: 50px;
+}
+.Pricing div {
+  display: flex;
+  justify-content: center;
+}
+.Pricing ul {
+  list-style-type: none;
+  width: 50%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.ul_h1 h1,
+.ul_h2 h1 {
+  font-size: 24px;
+  color: white;
+  padding: 32px 16px;
+  margin: 0px;
+
+}
+.Pricing ul li {
+  padding: 16px;
+  border-bottom: black solid 1px;
+}
+.Pricing button {
+  border: none;
+  color: white;
+  background-color: black;
+  padding: 12px 24px;
+}
+.Pricing button:hover {
+  color: black;
+  background-color: grey;
+}
+.ul_h1{
+  background-color: #757575;
+  padding: 32px 16px;
+}
+.ul_h2{
+  background-color: #f44336;
+  padding: 32px 16px;
+}
+.Pricing h2 {
+  color: grey;
+}
+.ul1 {
+  box-shadow: 2px 4px 8px 0px rgba(0, 0, 0, 0.15); 
+    margin-right: 25px;
+}
+.ul2 {
+  box-shadow: -2px 4px 8px 0px rgba(0, 0, 0, 0.15);
+    margin-left: 25px; 
+}
+footer {
+  text-align: center;
+  color: black;
+  padding: 32px 16px;
+  background-color: rgb(235, 235, 235);
+  font-size: 20px;
+}
+footer i {
+  color: black;
+  font-size: 30px !important;
+}
+footer i:hover{
+  color: grey;
+}
+footer a {
+  color: black;
 }
